@@ -1,0 +1,39 @@
+/* INSTRUCTIONS
+ *
+ * 1) Limit the total width of
+ *    the .intro-conent to about half
+ *    of it's parent
+ *
+ * 2) Stop the text from overflowing
+ *    out the bottom at small screen
+ *    widths
+ *
+ * You may modify the HTML if needed
+ *
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ibarra Real Nova', serif;
+
+  padding: 0;
+}
+
+.container {
+  background: #23424a;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+
+}
+.intro-content  h1{
+  color: red;
+  padding: 1.2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
