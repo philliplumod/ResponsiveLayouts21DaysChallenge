@@ -24,9 +24,6 @@ body {
 }
 
 .container {
-  width: 100%;
-
-  margin: 0 auto;
   background: #23424a;
   color: white;
   padding: 50px 0;
@@ -34,10 +31,10 @@ body {
 
 .intro-content {
   width: 50%;
-  margin: auto ;
+  margin: 0 auto ;
 }
 
-.more-content{
+.container, .more-content {
   width: 50%;
   margin: 0 auto;
   max-width: 750px;
